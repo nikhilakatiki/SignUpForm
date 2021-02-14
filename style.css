@@ -1,0 +1,62 @@
+.ss {
+    display: flex;
+    flex-direction: column;
+    border: cyan;
+    border-radius: 2px;
+    border-style: solid;
+    margin-top: 20vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-left: 20vw;
+
+}
+
+.top {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: blue;
+}
+
+/* .line {
+    border-width: 1px;
+    border-color: dimgrey;
+    border-style: solid;
+} */
+
+.ss>div {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.barsize {
+    background-image: url("users.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 40vw;
+}
+
+.bar {
+    background-image: url("display.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 40vw;
+
+}
+.pass {
+    background-image: url("checkmark.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    width: 40vw;
+}
+.sign{
+    margin-top: 2vw;
+    margin-left: 26vw;
+    background-color: cyan;
+    cursor: pointer;
+    height: 5vw;
+    width: 15vw;
+}
